@@ -12,14 +12,12 @@ const productos = [
 ];
 
 function actualizarStock(productos, id, nuevoStock) {
-    const buscar = productos.find(buscar => buscar.id == id);
+    const buscar = productos.find(buscar => buscar.id === id);
     if (buscar){
         buscar.stock = nuevoStock;
         return productos;
     }
-    else{
-        return null;
-    }
+    return null;
 }
 
 console.log(actualizarStock(productos, 2, 20));

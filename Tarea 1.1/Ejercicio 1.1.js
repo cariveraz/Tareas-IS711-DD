@@ -12,10 +12,10 @@ const productos = [
 
 function aplicarImpuestos(productos) { 
     return productos.filter(producto => producto.precio > 50)
-    .map(producto => { 
-        producto.precio = producto.precio + producto.precio*0.1;
-        return producto; 
-    })
+    .map(producto => ({ 
+        nombre: producto.nombre,
+        precio : producto.precio + producto.precio * 0.1,
+    }));
 }
 
 console.log(aplicarImpuestos(productos));
