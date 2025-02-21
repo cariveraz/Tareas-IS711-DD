@@ -1,0 +1,30 @@
+### OBTENER LA LISTA DE TODAS LAS TAREAS
+GET http://localhost:3000/tareas
+
+### OBTENER UNA TAREA ESPECIFICA POR SU ID
+GET http://localhost:3000/tareas/2
+
+### CREAR UNA NUEVA TAREA
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+    "titulo": "Hacer las tareas",
+    "descripcion": "Hacer la tarea de la clase de Disenio Digital.",
+    "completada": false
+}
+
+### ACTUALIZAR UNA TAREA EXISTENTE
+PUT http://localhost:3000/tareas/1
+Content-Type: application/json
+
+{
+    "titulo": "Estudiar para examen",
+    "descripcion": "Estudiar para el examen de Disenio Digital.",
+    "completada": true
+}
+
+### ELIMINAR UNA TAREA POR SU ID
+DELETE http://localhost:3000/tareas/2
+Content-Type: application/json
+

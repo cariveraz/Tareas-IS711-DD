@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Comprar viveres",
+        "descripcion": "Ir al supermercado y comprar verduras.",
+        "completada": true,
+        "fecha_creacion": "2025-02-20T14:30:00.123Z"
+    },
+    {
+        "id": 2,
+        "titulo": "Hacer ejercicio",
+        "descripcion": "Correr 5 km alrededor de la residencial.",
+        "completada": false,
+        "fecha_creacion": "2025-02-20T16:00:00.123Z"
+    }
+]
+  
