@@ -20,13 +20,13 @@ instalen los siguientes programas:
 ## Ejecución
 
 2. **Acceda al directorio donde se encuentra el proyecto**:
-    cd To-Do-List
+    - cd To-Do-List
 
 3. **Instale las dependencias**
-    npm install express
-    npm install zod
+    - npm install express
+    - npm install zod
 
-4. **Ejecute ***run dev*** **para poder poner en marcha la API**
-    npm run dev
+4. **Ejecute run dev para poder poner en marcha la API**
+    - npm run dev
 
 ## LISTO
